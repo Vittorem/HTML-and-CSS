@@ -1,0 +1,171 @@
+body{
+    background-color: rgb(21,23,37);
+}
+.card{
+    position: relative;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(36,34,37);
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    overflow: hidden;
+    transition: left, top 1s ease;
+}
+
+.circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #AFF5FE;
+    left: 35%;
+    top: -10%;
+    transition: left,top, 0.5s ease;
+}
+
+.nike{
+    position: absolute;
+    color: white;
+    opacity: 0.1;
+    filter: blur(5px);
+    font-size: 150px;
+    display: flex;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nikeshoes{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    top: 70%;
+    left: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transform: top 1s, ease;
+}
+
+img{
+    position: absolute;
+    height: 250px;
+    width: 250px;
+    top: 30%;
+    left: 10%;
+    transition: top, 1s, ease;
+}
+
+.card:hover .circle{
+    width: 500px;
+    height: 500px;
+    left: 0%;
+    top: -50%;
+}
+
+.card:hover img{
+    top: 10%;
+}
+
+.card:hover .nikeshoes{
+    top: 45%;
+}
+
+
+.oculto{
+    width: 300px;
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translateY(300%);
+    transition: transform, opacity 1s ease;
+    opacity: 0;
+}
+
+.card:hover .oculto{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.size{
+    display: flex;
+    align-items: center;
+}
+
+.texto{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 30px;
+}
+
+.talla{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 3px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.talla:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.color{
+    display: flex;
+    align-items: center ;
+    left: 20px;
+    top: 40px;
+}
+
+.textocolor{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.circulo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.circulo:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.rosa{
+    background-color: rosybrown;
+}
+
+.verde{
+    background-color: greenyellow;
+}
+
+.btn{
+    border-radius: 5px;
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+    border: none;
+    margin-top: 15px;;
+    background-color: #AFF5FE;
+    outline: none;
+    color: black;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    border: 3px solid white;
+}

@@ -1,0 +1,130 @@
+body{
+    background-image: url(https://images2.alphacoders.com/206/206740.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.card{
+    display: block;
+    background-color: white;
+    position:absolute;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    box-shadow: 3px 3px 1px 1px rgba(0,0,0,0.2);
+}
+
+.bgimg{
+    background-image: url(https://imgs.search.brave.com/2xohLJLi_4DykuuKZmdwZ2kL5JBw_C6LfRsFSz-TUD8/rs:fit:759:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5X/cDNLQ0xweDJiSUls/R0JlWHJPNFJ3SGFF/byZwaWQ9QXBp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30%;
+    border-radius: 10px 10px 0 0;
+
+}
+
+.img{
+    position: absolute;
+    border-radius: 50%;
+    background-color:lightgoldenrodyellow;
+    width: 120px;
+    height: 120px;
+    right: 25%;
+    top: 20%;
+    opacity: 0.9;
+    border: 3px solid gold;
+}
+
+.pikachu{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    right: -15px;
+    bottom: -5px;
+}
+
+.shadow{
+    position: absolute;
+    background-color: black;
+    opacity: 0.2;
+    width: 70px;
+    top: 100px;
+    border-radius: 50%;
+    height: 10%;
+    right: 30px;
+    filter:blur(2px)
+}
+
+.name{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    color: goldenrod;
+    top: 100px;
+    font-weight: bolder;
+}
+
+.atributos{
+    position: relative;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    height: 3px;
+    top: 120px;
+    font-size: x-small;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.poder{
+    position: relative;
+    top: 20px;
+    color: gold;
+    display: inline;
+    padding: 10px;
+}
+
+.rayo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 20px;
+}
+
+.castillo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 30px;
+    left: 100px;
+}
+
+.tesoro{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 35px;
+    left: 180px;
+}
+
+.resistencia{
+    position: relative;
+    top: 20px;
+    color: gold;
+    display: inline;
+    padding: 10px;
+}
+
+.bonus{
+    position: relative;
+    top: 20px;
+    color: gold;
+    display: inline;
+    padding: 10px;
+}

@@ -1,0 +1,42 @@
+form {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.busqueda{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+    background-image: url(https://imgs.search.brave.com/ETzt2QiZ3fcpZSPZ4iHTIxXLbabrJ_jS6o0cfhr15xc/rs:fit:597:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5J/NGZXM1NKSl9jSTln/cjYxZlFXLXB3SGFG/NCZwaWQ9QXBp);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+
+
+
+.micro{
+    padding: 10px;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: 100px;
+
+}
+
+.micro:hover{
+    color: rgba(50, 50, 150);
+}
+
+.busqueda2{
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: lightsalmon;
+    margin-left: 1px;
+    border: none;
+    cursor: pointer;
+}

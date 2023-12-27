@@ -1,0 +1,75 @@
+body{
+    background-color: orange;
+}
+
+#logo{
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    top: 20px;
+    right: -20px;
+}
+
+#black{
+    background-color: orange;
+    
+}
+
+#menu{
+    display: flex;
+    
+}
+
+.navegacion{
+    position: fixed;
+    right: 1rem;
+    top: 5rem;
+
+
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin: 30px;
+}
+
+.navegacion a:hover{
+    color: white;
+}
+
+
+.img{
+    position: relative;
+    /* height: 100vh; */
+    left: 600px;
+    bottom: -50px;
+    width: max-content;
+    height: fit-content;
+}
+
+.jumbotron{
+    position: relative;
+    top: -1100px;
+    left: 100px;
+    width: 500px;
+
+}
+
+.btn-primary{
+    position: relative;
+    top: -1050px;
+    left: 100px;
+    border-radius: 8px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+.btn-primary:hover{
+    background-color: lightblue;
+}

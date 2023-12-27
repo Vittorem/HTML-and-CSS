@@ -1,0 +1,158 @@
+body{
+  background-color: black;
+}
+
+.sphere-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sphere {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: lightsalmon;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(.1);
+    transform: translate(-50%, -50%);
+    animation: moveY 8s infinite;
+    box-shadow: 0 0 10px lightsalmon, 0 0 20px lightcoral, 0 0 30px lightsalmon, 0 0 40px lightgoldenrodyellow, 0 0 70px lightcoral, 0 0 80px lightsalmon, 0 0 100px lightgoldenrodyellow;
+}
+
+.sphere::after{
+  transform: scale(1);
+}
+
+
+@keyframes moveY {
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+  
+  .sphere:nth-child(2) {
+    background-color: lightsteelblue;
+    left: 45%;
+    animation-delay: 4s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  
+  .sphere:nth-child(3) {
+    background-color: lightsalmon;
+    left: 40%;
+    animation-delay: 10s;
+  }
+
+  .sphere:nth-child(4) {
+    background-color: lightsteelblue;
+    left: 35%;
+    animation-delay: 3s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+
+  .sphere:nth-child(5) {
+    background-color: lightsalmon;
+    left: 30%;
+    animation-delay: 3.1s;
+  }
+  .sphere:nth-child(6) {
+    background-color: lightsteelblue;
+    left: 25%;
+    animation-delay: 6s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  .sphere:nth-child(7) {
+    background-color: lightsalmon;
+    left: 20%;
+    animation-delay: 7.5s;
+  }
+  .sphere:nth-child(8) {
+    background-color: lightsteelblue;
+    left: 15%;
+    animation-delay: .6s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  .sphere:nth-child(9) {
+    background-color: lightsalmon;
+    left: 10%;
+    animation-delay: 4.9s;
+  }
+  .sphere:nth-child(10) {
+    background-color: lightsteelblue;
+    left: 5%;
+    animation-delay: .2s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  .sphere:nth-child(11) {
+    background-color: lightsalmon;
+    left: 0%;
+    animation-delay: 6.6s;
+  }
+  .sphere:nth-child(12) {
+    background-color: lightsteelblue;
+    left: 55%;
+    animation-delay: 2.8s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  .sphere:nth-child(13) {
+    background-color: lightsalmon;
+    left: 60%;
+    animation-delay: 8.2s;
+  }
+
+  .sphere:nth-child(14) {
+    background-color: lightsteelblue;
+    left: 65%;
+    animation-delay: 7s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  
+  .sphere:nth-child(15) {
+    background-color: lightsalmon;
+    left: 70%;
+    animation-delay: 1.1s;
+  }
+
+  .sphere:nth-child(16) {
+    background-color: lightsteelblue;
+    left: 75%;
+    animation-delay: 4.3s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+
+  }
+
+  .sphere:nth-child(17) {
+    background-color: lightsalmon;
+    left: 80%;
+    animation-delay: 1.9;
+  }
+  .sphere:nth-child(18) {
+    background-color: lightsteelblue;
+    left: 85%;
+    animation-delay: 6.7s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  .sphere:nth-child(19) {
+    background-color: lightsalmon;
+    left: 90%;
+    animation-delay: 2.9s;
+  }
+  .sphere:nth-child(8) {
+    background-color: lightsteelblue;
+    left: 95%;
+    animation-delay: .8s;
+    box-shadow: 0 0 10px lightskyblue, 0 0 20px lightblue, 0 0 30px lightcyan, 0 0 40px lightblue, 0 0 70px lightskyblue, 0 0 80px lightblue, 0 0 100px lightsteelblue;
+  }
+  .sphere:nth-child(20) {
+    background-color: lightsalmon;
+    left: 100%;
+    animation-delay: 5.5s;
+
+  }
+  
